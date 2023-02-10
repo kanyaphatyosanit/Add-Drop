@@ -22,11 +22,11 @@ const { course } = useCourse();
       <div class="col" style="color:white;" v-if="course && course[n - 1]">
         {{ course[n - 1].code }}
       </div>
-      <div class="col" style="color:white;"v-if="course && course[n - 1]">
+      <div class="col" style="color:white;" v-if="course && course[n - 1]">
         {{ course[n - 1].nameTh }}<br>
         {{ course[n - 1].nameEg }}
       </div>
-      <div class="col" style="color:white;"v-if="course && course[n - 1]">
+      <div class="col" style="color:white;" v-if="course && course[n - 1]">
         {{ course[n - 1].group }}
       </div>
     </div>
